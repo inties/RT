@@ -1,0 +1,75 @@
+﻿  main.cpp
+  main_tread.cpp
+E:\Learning\Rendering\RT\sphere.h(26,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\sphere.h(27,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\sphere.h(28,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\sphere.h(57,36): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\sphere.h(58,36): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\sphere.h(62,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\sphere.h(64,24): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“main_tread.cpp”)
+  
+E:\Learning\Rendering\RT\main_tread.cpp(90,30): warning C4305: “参数”: 从“double”到“float”截断
+E:\Learning\Rendering\RT\main_tread.cpp(90,25): warning C4305: “参数”: 从“double”到“float”截断
+E:\Learning\Rendering\RT\main_tread.cpp(91,30): warning C4305: “参数”: 从“double”到“float”截断
+E:\Learning\Rendering\RT\main_tread.cpp(91,25): warning C4305: “参数”: 从“double”到“float”截断
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244: “参数”: 从“_Ty”转换到“float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         ]
+  (编译源文件“main_tread.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\Learning\Rendering\RT\main_tread.cpp(93,31):
+          查看对正在编译的函数 模板 实例化“std::shared_ptr<Sphere> std::make_shared<Sphere,vec3,double,Material&>(vec3 &&,double &&,Material &)”的引用
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(2906,46):
+          查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<Sphere>::_Ref_count_obj2<_Ty,double,Material&>(_Ty &&,double &&,Material &)”的引用
+          with
+          [
+              _Ty=vec3
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(2095,18):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,vec3,double,Material&>(_Ty &,vec3 &&,double &&,Material &) noexcept(false)”的引用
+          with
+          [
+              _Ty=Sphere
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244: “参数”: 从“_Ty”转换到“float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82): warning C4244:         ]
+  (编译源文件“main_tread.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(406,82):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\Learning\Rendering\RT\main_tread.cpp(95,29):
+          查看对正在编译的函数 模板 实例化“std::shared_ptr<Sphere> std::make_shared<Sphere,vec3,int,Material&>(vec3 &&,int &&,Material &)”的引用
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(2906,46):
+          查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<Sphere>::_Ref_count_obj2<_Ty,int,Material&>(_Ty &&,int &&,Material &)”的引用
+          with
+          [
+              _Ty=vec3
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(2095,18):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,vec3,int,Material&>(_Ty &,vec3 &&,int &&,Material &) noexcept(false)”的引用
+          with
+          [
+              _Ty=Sphere
+          ]
+  
+  正在生成代码...
+  RT.vcxproj -> E:\Learning\Rendering\RT\x64\Debug\RT.exe
