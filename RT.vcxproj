@@ -135,8 +135,11 @@
     <ClInclude Include="camera.h" />
     <ClInclude Include="hitable.h" />
     <ClInclude Include="hitableList.h" />
+    <ClInclude Include="hitrecord.h" />
     <ClInclude Include="Light.h" />
+    <ClInclude Include="mat.h" />
     <ClInclude Include="material.h" />
+    <ClInclude Include="material_tu.h" />
     <ClInclude Include="ray.h" />
     <ClInclude Include="somemath.h" />
     <ClInclude Include="sphere.h" />

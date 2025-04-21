@@ -1,17 +1,15 @@
 #pragma once
-//rtweekend.h
-#ifndef RTWEEKEND_H
-#define RTWEEKEND_H
+//somemath.h
+
 
 #include <cmath>
 #include <cstdlib>
 #include <limits>
 #include <memory>
-//rtweekend.h
 #include <cstdlib>
 #include <functional>
 #include <random>
-#include"vector.h"
+
 // Usings
 
 using std::shared_ptr;
@@ -50,6 +48,6 @@ inline float saturate(float x) {
 }
 
 
+
 // Common Headers
 
-#endif

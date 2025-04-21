@@ -53,5 +53,14 @@
     <ClInclude Include="Light.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="material_tu.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hitrecord.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mat.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
